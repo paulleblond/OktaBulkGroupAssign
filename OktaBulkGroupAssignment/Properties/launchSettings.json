@@ -1,7 +1,8 @@
 {
   "profiles": {
     "OktaBulkGroupAssignment": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "import -t dev-798323.okta.com -i D:\\Work\\import.csv"
     }
   }
 }
