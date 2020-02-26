@@ -6,7 +6,7 @@ This is a command line tool that I've written to support some bulk user operatio
 This action allows you to assign users to okta groups based on a 2 column CSV of login and group name.  For group names that have spaces, surround the group name with double quotes.  **Do not include a header** in your group assignment CSV.  The only group type that can be assigned to is **OKTA_GROUP**.  Active Directory or other mastered groups cannot be changed via Okta's API.  Below is an example of how the CSV should be formatted.
 
     user@domain.dev,group1
-    otheruser@domain.dev,""group two""
+    otheruser@domain.dev,"group two"
     admin@domain.dev,group1
 
 ## Import Users
